@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeSignal.Arcade.Intro;
 
 namespace CodeSignal
 {
@@ -13,6 +14,10 @@ namespace CodeSignal
             // is needed. The methods work in Visual Studio.
             //
             // Uncomment out the Day Class you want to execute.
+            // One_Add.add();
+            Two_centuryFrom_Year.centuryFromYear();
+
+
         }
     }
 }
