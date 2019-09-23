@@ -9,10 +9,23 @@ namespace CodeSignal.Arcade.Intro
        public static void centuryFromYear()
         {
 
-            int year = 1992;
-            double decYear = year * .01;
-            double result = Math.Round(decYear);
-            Console.WriteLine((int)result);
+            int year = 35100;
+            double reducer = .01;
+            
+            if (year%100==0)
+            {
+
+                double decYear = year * reducer;
+                Console.WriteLine((int)decYear); 
+            }
+            else
+            {
+                double decYear = year * reducer;
+                double result = decYear + 1;
+                Console.WriteLine((int)decYear);
+            }
+           
         }
+    
     }
 }

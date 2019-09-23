@@ -15,7 +15,9 @@ namespace CodeSignal
             //
             // Uncomment out the Day Class you want to execute.
             // One_Add.add();
-            Two_centuryFrom_Year.centuryFromYear();
+            // Two_centuryFrom_Year.centuryFromYear();
+            Three_checkPalindrome.checkPalindrome();
+
 
 
         }
