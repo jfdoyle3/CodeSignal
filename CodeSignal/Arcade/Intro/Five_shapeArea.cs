@@ -11,8 +11,6 @@ namespace CodeSignal.Arcade.Intro
             int n = 1;
             int count = 0;
             int max = 2 * n - 1;
-            int[] tally = new int[7];
-
 
             for (int i=1; i<n; i++)
             {
