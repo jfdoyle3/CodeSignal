@@ -1,5 +1,6 @@
 ﻿using System;
 using CodeSignal.Arcade.Intro;
+using CodeSignal.Arcade.TheCore;
 
 namespace CodeSignal
 {
@@ -18,7 +19,8 @@ namespace CodeSignal
             // Two_centuryFrom_Year.centuryFromYear();
             // Three_checkPalindrome.checkPalindrome();
             // Four_adjacentElementsproducts.adjacentElementsProduct();
-            Five_shapeArea.ShapeArea();
+            // Five_shapeArea.ShapeArea();
+            LargestNumber.LargeNumber();
 
 
         }
