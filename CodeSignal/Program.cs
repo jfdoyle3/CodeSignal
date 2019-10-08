@@ -1,6 +1,7 @@
 ﻿using System;
 using CodeSignal.Arcade.Intro;
 using CodeSignal.Arcade.TheCore;
+using CodeSignal.Challenges;
 
 namespace CodeSignal
 {
@@ -20,7 +21,11 @@ namespace CodeSignal
             // Three_checkPalindrome.checkPalindrome();
             // Four_adjacentElementsproducts.adjacentElementsProduct();
             // Five_shapeArea.ShapeArea();
-            LargestNumber.LargeNumber();
+            // LargestNumber.LargeNumber();
+
+            //   Challenges
+            //  ------------
+            FirstDuplicateNumber.DupeNumber();
 
 
         }
