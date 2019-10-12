@@ -2,6 +2,7 @@
 using CodeSignal.Arcade.Intro;
 using CodeSignal.Arcade.TheCore;
 using CodeSignal.Challenges;
+using CodeSignal.Company_Challenges.CodeSignal;
 
 namespace CodeSignal
 {
@@ -16,6 +17,9 @@ namespace CodeSignal
             // is needed. The methods work in Visual Studio.
             //
             // Uncomment out the Day Class you want to execute.
+
+            // Arcade Intro
+
             // One_Add.add();
             // Two_centuryFrom_Year.centuryFromYear();
             // Three_checkPalindrome.checkPalindrome();
@@ -25,7 +29,11 @@ namespace CodeSignal
 
             //   Challenges
             //  ------------
-            FirstDuplicateNumber.DupeNumber();
+            // FirstDuplicateNumber.DupeNumber();
+
+            // Company Challenges
+            //  Code Signal
+            CompanyBotStrategy.Bot();
 
 
         }
