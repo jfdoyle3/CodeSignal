@@ -34,7 +34,7 @@ namespace CodeSignal.Company_Challenges.CodeSignal
             if (noBots)
                 Console.WriteLine("0");
             else
-                Console.WriteLine(result.ToString("N2");
+                Console.WriteLine(result.ToString("N2"));
         }
     }
 }

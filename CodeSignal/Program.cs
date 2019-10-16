@@ -3,6 +3,7 @@ using CodeSignal.Arcade.Intro;
 using CodeSignal.Arcade.TheCore;
 using CodeSignal.Challenges;
 using CodeSignal.Company_Challenges.CodeSignal;
+using CodeSignal.InterviewPractices;
 
 namespace CodeSignal
 {
@@ -10,7 +11,7 @@ namespace CodeSignal
     {
         static void Main(string[] args)
         {
-            // Logon onto: https://codesignal.com to Company Challanges
+            // Login onto: https://codesignal.com to Company Challenges
             // and cut & paste class's method into tests.
             //
             // Please read the code in the method to know what type of data
@@ -32,8 +33,16 @@ namespace CodeSignal
             // FirstDuplicateNumber.DupeNumber();
 
             // Company Challenges
+            // ------------------
+            //
             //  Code Signal
-            CompanyBotStrategy.Bot();
+            //  -----------
+            // CompanyBotStrategy.Bot();
+
+
+            // Interview Practice
+            // ------------------
+            HouseRobber.Robber();
 
 
         }
