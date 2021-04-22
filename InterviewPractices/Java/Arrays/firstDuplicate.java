@@ -14,16 +14,18 @@ for(int idx=0; idx<a.length; idx++){
           indexes.add(idx);
          }
 }
-List<Integer> keys=new ArrayList<>();
-    for (Map.Entry<Integer,List<Integer>> entry : arrayMap.entrySet()) {
-        Integer k = entry.getKey();
-        Integer v = entry.getValue();
-        System.out.println("Key: " + k + ", Value: " + v);
-    }
+System.out.println(arrayMap.get(2).get(0));
+// List<Integer> keys=new ArrayList<>();
+//     for (Map.Entry<Integer,List<Integer>> entry : arrayMap.entrySet()) {
+//         Integer k = entry.getKey();
+//         Integer v = entry.getValue();
+//         System.out.println("Key: " + k + ", Value: " + v);
+//     }
 
 
 
 //System.out.println(arrayMap.toString());
+
 
 
 
