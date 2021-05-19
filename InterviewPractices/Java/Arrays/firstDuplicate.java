@@ -28,11 +28,6 @@ System.out.println(arrayMap.get(2).get(0));
 
 
 
-
-
-
-int index=findIndex(a, 3);
-
 return 0;
 }
 
