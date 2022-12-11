@@ -10,6 +10,13 @@ boolean solution(int[] sequence) {
             System.out.print("T"+num+ " ");
         else{
             countFalse++;
+            if(countFalse>1 && sequence[num]<sequence[num+2]){
+                isRemoved=true;
+                isSequenced=true;
+                break;
+                
+            }
+                
             System.out.println("F"+num+" ");
         }
     }
